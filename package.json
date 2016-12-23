@@ -1,26 +1,26 @@
 {
-  "name": "on-statsd",
-  "version": "0.0.0",
-  "description": "on-statsd ==============",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Warning: no tests specified\" && exit 0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/RackHD/on-statsd.git"
-  },
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/RackHD/on-statsd/issues"
-  },
-  "homepage": "https://github.com/RackHD/on-statsd",
-  "dependencies": {
-    "statsD": "git+https://github.com/etsy/statsd.git",
-    "di": "git+https://github.com/RackHD/di.js.git",
-    "statsd-elasticsearch-backend": "git+https://github.com/markkimsal/statsd-elasticsearch-backend.git"
-  },
-  "devDependencies": {
-    "coveralls": "^2.11.4"
-  }
+    "bugs": {
+        "url": "https://github.com/RackHD/on-statsd/issues"
+    }, 
+    "dependencies": {
+        "di": "git+https://github.com/RackHD/di.js.git#release2.1.0", 
+        "statsD": "git+https://github.com/etsy/statsd.git#release2.1.0", 
+        "statsd-elasticsearch-backend": "git+https://github.com/markkimsal/statsd-elasticsearch-backend.git#release2.1.0"
+    }, 
+    "description": "on-statsd ==============", 
+    "devDependencies": {
+        "coveralls": "^2.11.4"
+    }, 
+    "homepage": "https://github.com/RackHD/on-statsd", 
+    "license": "Apache-2.0", 
+    "main": "index.js", 
+    "name": "on-statsd", 
+    "repository": {
+        "type": "git", 
+        "url": "https://github.com/RackHD/on-statsd.git"
+    }, 
+    "scripts": {
+        "test": "echo \"Warning: no tests specified\" && exit 0"
+    }, 
+    "version": "0.0.0"
 }
