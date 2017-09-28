@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RackHD/on-statsd.git"
+    "url": "https://github.com/RackHD-mirror/on-statsd.git"
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/RackHD/on-statsd/issues"
+    "url": "https://github.com/RackHD-mirror/on-statsd/issues"
   },
-  "homepage": "https://github.com/RackHD/on-statsd",
+  "homepage": "https://github.com/RackHD-mirror/on-statsd",
   "dependencies": {
     "statsD": "git+https://github.com/etsy/statsd.git",
-    "di": "git+https://github.com/RackHD/di.js.git",
+    "di": "git+https://github.com/RackHD-mirror/di.js.git",
     "statsd-elasticsearch-backend": "git+https://github.com/markkimsal/statsd-elasticsearch-backend.git"
   },
   "devDependencies": {
